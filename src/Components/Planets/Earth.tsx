@@ -1,8 +1,8 @@
 import  { useState } from "react";
 import PlanetInfo from "../PlanetComponents/PlanetInfo";
-import EarthInternal from "../assets/planet-Earth-internal.svg";
-import EarthPlanet from "../assets/planet-Earth.svg";
-import EarthGeology from "../assets/geology-Earth.png";
+import EarthInternal from "../assets/planet-earth-internal.svg";
+import EarthPlanet from "../assets/planet-earth.svg";
+import EarthGeology from "../assets/geology-earth.png";
 
 function Earth() {
   const [changeInfo, setChangeInfo] = useState<number>(1);

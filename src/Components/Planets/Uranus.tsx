@@ -1,8 +1,8 @@
 import  { useState } from "react";
 import PlanetInfo from "../PlanetComponents/PlanetInfo";
-import UranusInternal from "../assets/planet-Uranus-internal.svg";
-import UranusPlanet from "../assets/planet-Uranus.svg";
-import UranusGeology from "../assets/geology-Uranus.png";
+import UranusInternal from "../assets/planet-uranus-internal.svg";
+import UranusPlanet from "../assets/planet-uranus.svg";
+import UranusGeology from "../assets/geology-uranus.png";
 
 function Uranus() {
   const [changeInfo, setChangeInfo] = useState<number>(1);

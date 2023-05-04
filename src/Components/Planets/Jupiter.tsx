@@ -1,8 +1,8 @@
 import  { useState } from "react";
 import PlanetInfo from "../PlanetComponents/PlanetInfo";
-import JupiterInternal from "../assets/planet-Jupiter-internal.svg";
-import JupiterPlanet from "../assets/planet-Jupiter.svg";
-import JupiterGeology from "../assets/geology-Jupiter.png";
+import JupiterInternal from "../assets/planet-jupiter-internal.svg";
+import JupiterPlanet from "../assets/planet-jupiter.svg";
+import JupiterGeology from "../assets/geology-jupiter.png";
 
 function Jupiter() {
   const [changeInfo, setChangeInfo] = useState<number>(1);

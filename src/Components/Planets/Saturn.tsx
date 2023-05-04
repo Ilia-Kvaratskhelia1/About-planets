@@ -1,8 +1,8 @@
 import { useState } from "react";
 import PlanetInfo from "../PlanetComponents/PlanetInfo";
-import SaturnInternal from "../assets/planet-Saturn-internal.svg";
-import SaturnPlanet from "../assets/planet-Saturn.svg";
-import SaturnGeology from "../assets/geology-Saturn.png";
+import SaturnInternal from "../assets/planet-saturn-internal.svg";
+import SaturnPlanet from "../assets/planet-saturn.svg";
+import SaturnGeology from "../assets/geology-saturn.png";
 
 function Saturn() {
   const [changeInfo, setChangeInfo] = useState<number>(1);
