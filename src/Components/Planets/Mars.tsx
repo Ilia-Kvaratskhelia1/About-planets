@@ -1,8 +1,8 @@
 import {useState } from "react";
 import PlanetInfo from "../PlanetComponents/PlanetInfo";
-import MarsInternal from "../assets/planet-Mars-internal.svg";
-import MarsPlanet from "../assets/planet-Mars.svg";
-import MarsGeology from "../assets/geology-Mars.png";
+import MarsInternal from "../assets/planet-mars-internal.svg";
+import MarsPlanet from "../assets/planet-mars.svg";
+import MarsGeology from "../assets/geology-mars.png";
 
 function Mars() {
   const [changeInfo, setChangeInfo] = useState<number>(1);
