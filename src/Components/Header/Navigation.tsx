@@ -1,8 +1,8 @@
 import "./Navigation.css";
 import Mercury from "../assets/planet-mercury.svg";
 import venus from "../assets/planet-venus.svg";
-import Earth from "../assets/planet-Earth.svg";
-import Mars from "../assets/planet-Mars.svg";
+import Earth from "../assets/planet-earth.svg";
+import Mars from "../assets/planet-mars.svg";
 import jupiter from "../assets/planet-jupiter.svg";
 import saturn from "../assets/planet-saturn.svg";
 import uranus from "../assets/planet-uranus.svg";
