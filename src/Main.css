@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #070724;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+  }

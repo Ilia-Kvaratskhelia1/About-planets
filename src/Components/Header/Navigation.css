@@ -1,0 +1,72 @@
+.mainNav{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    position: absolute;
+    transition: 1s;
+    z-index: 99;
+    background-color: #070724a9;
+
+}
+.mainNav li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff15;
+    padding: 26px;
+    cursor: pointer;
+}
+
+.mainNav li:hover{
+background-color: #ffffff75;
+}
+.mainNav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 0px 16px;
+}
+.navPlanetIcon{
+    width: 20px;
+}
+.mainDesknav{
+    display: none;
+}
+
+@media only screen and (min-width:800px) {
+    .mainNav{
+        display: none;
+    }
+    .mainDesknav{
+       display: inherit;
+    }
+    .desktopMenu{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        
+    }
+        .desktopMenu li {
+            list-style: none;
+        }
+        .desktopMenu li a{
+            color: #838391;
+            text-decoration: none;
+            font-size: 1.3rem;
+            
+        }
+
+}
+
+@media only screen and (min-width:1100px) {
+    .mainNav{
+        display: none;
+    }
+        .desktopMenu li a{
+            font-size: 1.1rem;
+            margin: 0 12px;
+        }
+
+}

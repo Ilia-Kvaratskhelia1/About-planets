@@ -1,0 +1,103 @@
+header{
+width: 99vw;
+height: 60px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+z-index: 100;
+}
+
+.title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white ;
+}
+.BurgMenuu{
+    cursor: pointer;
+}
+.BurgMenuu:focus{
+    opacity: 20%;
+}
+
+
+ .MERCURY:focus{
+    color: #419EBB;
+border-bottom: 2px solid #419EBB;
+transition: .5s ease-in-out;
+
+ }
+ .VENUS:focus{
+    color: #EDA249;
+    border-bottom: 2px solid #EDA249;
+    transition: .5s ease-in-out;
+
+ }
+ .EARTH:focus{
+    color: #6D2ED5;
+    border-bottom: 2px solid #6D2ED5;
+    transition: .5s ease-in-out;
+
+ }
+ .MARS:focus{
+    color: #CD5120;
+    border-bottom: 2px solid #CD5120;
+    transition: .5s ease-in-out;
+
+ }
+ .JUPITER:focus{
+    color:#D83A34 ;
+    border-bottom: 2px solid #D83A34 ;
+    transition: .5s ease-in-out;
+
+ }
+ .SATURN:focus{
+    color:#CD5120;
+    border-bottom: 2px solid #CD5120;
+    transition: .5s ease-in-out;
+
+ }
+ .URANUS:focus{
+    color:#1EC1A2 ;
+    border-bottom: 2px solid #1EC1A2;
+    transition: .5s ease-in-out;
+
+ }
+  .NEPTUN:focus{
+    color:#2D68F0 ;
+    border-bottom: 2px solid #2D68F0;
+    transition: .5s ease-in-out;
+
+ }
+.desktopNav{display: none;}
+@media only screen and (min-width:800px) {
+    header{
+        height:70px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .BurgMenuu{
+        display: none;
+    }
+    .desktopMenu{
+      display: none;
+    }
+   
+}
+
+@media only screen and (min-width:1100px) {
+  
+   .desktopNav{
+      display: inherit;
+   }
+   .tabletNav{
+      display: none;
+   }
+   header{
+      justify-content: space-between;
+      align-items: center;
+   }
+  
+}

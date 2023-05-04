@@ -1,0 +1,156 @@
+.MercuryImageContainer{
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MercuryImage{
+    width: 132px;
+    height: 132px;
+}
+.mercuryInfoText{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.mercuryInfoText h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.mercuryInfoText p{
+    color: gray;
+    font-size: 14px;
+}
+.source {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
+.source span {
+    color:#838391d5 ;
+    
+}
+.source a{
+    color:white ;
+
+    text-decoration: underline;
+}
+
+.aboutMercury{
+    width: 100%;
+    height: 300px;
+}
+
+/* ////////// about mercury section */
+
+.aboutMercury{
+    width: 100vw;
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+.about{
+    width: 90%;
+    height: 50px;
+    padding: 0 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #8383913c;
+
+}
+.about:hover{
+    background-color: #0e0e2f64;
+
+}
+.about p:nth-child(1){
+    color: #838391;
+    font-size: .8rem;
+    white-space: nowrap;
+ }
+.NoneComponent{
+    display: none;
+}
+
+
+
+ @media only screen and (min-width:800px) {
+    .MercuryImageContainer{
+        height: 260px;
+    }
+    .plInformationComponent{
+        display: none;
+    }
+    .mercuryTextAndInfo{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between                ;
+        
+    }
+    .mercuryInfoText{
+        text-align: start;
+        width: 50%;
+        height: 250px;
+    }
+    .source {
+    justify-content: flex-start;   
+    }
+    .aboutMercury{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+        width: 100%;
+        height: 100px;
+    }
+    .about{
+        width: 90%;
+        height: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        border: 1px solid #8383913c;
+    
+    }
+    .about p:nth-child(2){
+        font-size: 1.4rem;
+    }
+    .NoneComponent{
+        display: inherit;
+    }
+ }
+
+ @media only screen and (min-width:1100px) {
+    .MercuryImageContainer{
+        height:500px;
+        width: 50%;
+    }
+    .MercuryImageContainer img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .mmmmain{
+      display: flex;
+      height: 550px;
+      justify-content: space-around;
+    }
+    .mercuryTextAndInfo{
+        display: grid;
+    }
+    .mercuryInfoText h1{
+        text-align: center;
+        width: 400px;
+    }
+    .mercuryInfoText p{
+        padding: 20px;
+        width: 400px;
+    }
+    
+   
+ }
